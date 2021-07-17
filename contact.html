@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kartik's Contact Details</title>
+</head>
+
+<body>
+    <h2>Contact Details </h2>
+    <p>452009-Sudam Nagar Indore, M.P., India</p>
+    <p>+919339510500</p>
+    <p>kartikr022@gmail.com</p>
+    <hr>
+    <form action="mailto:kartikr022@gmail.com" method="POST" class="form" enctype="text/plain">
+        <div class="form">
+            <label for="name">Enter your Name: </label>
+            <input type="text" name="name" id="name" required>
+        </div>
+        <div class="form">
+            <label for="email">Enter your Email: </label>
+            <input type="email" name="email" id="email" required>
+        </div>
+        <div class="form">
+            <label for="phone">Enter your Mobile Number:</label>
+            <input type="tel" name="phone" id="phone" required>
+        </div>
+        <div class="form">
+            <label for="query">Message:</label><br>
+
+            <textarea id="query" name="query" rows="5" cols="20">Enter your Message</textarea>
+        </div>
+        <div class="form">
+            <input type="submit" value="Submit">
+        </div>
+    </form>
+</body>
+
+</html>
